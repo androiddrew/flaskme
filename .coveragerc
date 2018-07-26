@@ -1,0 +1,7 @@
+[run]
+omit =
+    tests/*
+    env/*
+
+[report]
+show_missing = True
