@@ -3,12 +3,7 @@ from flask import Flask, jsonify, render_template
 app = Flask("flaskme")
 
 
-# @app.route("/")
-# def hello_world():
-#     return "Hello World!"
-
-
-@app.route("/ping")
+@app.route("/api/ping")
 def ping():
     return jsonify({"ping": "pong"})
 
